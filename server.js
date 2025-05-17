@@ -39,7 +39,7 @@ app.use('/api/v1/cat', categoryRoutes)
 app.use('/api/v1/order', orderRoutes)
 // !first api
 app.get("/", (req, res) => {
-    return res.send('hello gentlemen')
+    return res.send('hello gentlemen this is backend api of ecommerce project')
 })
 
 const port = process.env.PORT || 8000
